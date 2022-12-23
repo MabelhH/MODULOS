@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sesion03';
+  titulo='FRAMEWORK ANGULAR';
+
+  
+  cursos:string[]=[];
+  addcurso(nombrec:string){
+    this.cursos.push(nombrec)
+  }
+
+
 }
