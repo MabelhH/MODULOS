@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./tarea03.component.css']
 })
 export class Tarea03Component {
-  
+  titulo='FRAMEWORK ANGULAR';
   
   cursos:string[]=[];
   addcurso(nombrec:string){
